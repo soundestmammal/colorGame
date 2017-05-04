@@ -10,6 +10,7 @@ body {
 	background: purple;
 	float: left;
 	margin: 1.66%;
+	border-radius: 15%;
 
 }
 
@@ -53,4 +54,16 @@ button {
 	color: steelblue;
 	letter-spacing: 1px;
 	font-size: inherit;
+	transition: all 0.3s;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+
 }
